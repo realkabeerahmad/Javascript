@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif,
+    Courier, monospace;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: blueviolet;
+  color: white;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+.container div {
+  margin: 10px 0px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.player-buttons button {
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin: 30px;
+}
+.rContainer {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 1.5rem;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #cccfff;
+  /* margin-bottom: -150px; */
+  transition: 0.5s;
+}
+.rContainer button {
+  outline: none;
+  border: none;
+  background-color: white;
+  color: green;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0px;
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  margin: 30px;
+}
+.win {
+  background-color: green;
+  color: palegreen;
+}
+.lose {
+  background-color: darkred;
+  color: white;
+}
+.draw {
+  background-color: skyblue;
+  color: black;
+}

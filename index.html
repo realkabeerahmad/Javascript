@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Stone Paper Scissor</title>
+  </head>
+  <body>
+    <div class="rContainer" id="result-container">
+      <h1 id="result">Result</h1>
+      <button id="playagain">↻</button>
+    </div>
+    <!-- Game Here -->
+    <div class="container" id="main">
+      <h1>Stone Paper Scissor</h1>
+      <div class="score-container">
+        <div class="score">
+          Your Score:&nbsp;
+          <span id="player-score"> 0 </span>
+        </div>
+        <div class="score">
+          Computer's Score: &nbsp;
+          <span id="computer-score"> 0 </span>
+        </div>
+      </div>
+      <div class="moves-container">Moves Left:&nbsp; <span id="moves">00</span></div>
+
+      <div class="decision-container">
+        <span id="decision"></span>
+      </div>
+      <div class="choice">
+        <div class="computer">
+          Computer's Choice:&nbsp;
+          <span id="cChoice"></span>
+        </div>
+        <div class="player">
+          Your Choice:&nbsp;
+          <span id="pChoice"></span>
+        </div>
+      </div>
+      <div class="player-buttons">
+        <button id="_S">🧱</button>
+        <button id="_P">📃</button>
+        <button id="_Sc">✂</button>
+      </div>
+    </div>
+  </body>
+  <script src="./index.js"></script>
+</html>
